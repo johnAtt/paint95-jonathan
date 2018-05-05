@@ -1,0 +1,57 @@
+
+.buttonsArea{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background-color: grey;
+    box-sizing: border-box;
+    border: black 4px solid;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.canvasArea{
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    height: 500px;
+    border: black 4px solid;
+    box-sizing: border-box;
+}
+
+.bottomArea{
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100vw;
+    height:19%;
+    background-color: grey;
+    border: black 4px solid;
+    margin:0;
+}
+
+#Smaller-Pen, #Bigger-Pen, #Smaller-eraser, #Bigger-eraser, #clear{
+    display:inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+#featuresButton0, #featuresButton1, #featuresButton2, #featuresButton3, #featuresButton4 {
+    width:100px;
+    height:80px;
+    margin:15px;
+   
+}
+.color-btn{
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left:30px;
+    display:inline-block;
+    width:60px;
+    height:60px;
+    border-radius:60px;
+}
